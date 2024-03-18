@@ -1,5 +1,5 @@
 import Link from 'next/link'
-import { NavItems } from '../layout'
+import { NavItems } from '../app/layout'
 
 export default function NavBar({ nav }: { nav: NavItems[] }) {
   return (
